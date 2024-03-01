@@ -1,0 +1,35 @@
+{
+  "name": "elearningclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch  src/resources/scss/ --output  src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangDep1999/nodejs_elearning.git"
+  },
+  "keywords": [
+    "elearning",
+    "wenet"
+  ],
+  "author": "hoangvn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangDep1999/nodejs_elearning/issues"
+  },
+  "homepage": "https://github.com/HoangDep1999/nodejs_elearning#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
